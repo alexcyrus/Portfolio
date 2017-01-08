@@ -228,7 +228,7 @@ p.abtme {
 /* Section 3
  * --------------------------------------- */
 #section3{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(../imgs/background3.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(../imgs/background1.jpeg);
     padding: 6% 0 0 0;
   }
 #section3 h1{
