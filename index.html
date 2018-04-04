@@ -1,206 +1,572 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Alex Cyrus | Web Developer</title>
 
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Alex Cyrus | Web Developer</title>
-  <meta name="Alex Cyrus" content="Portfolio" />
-  <meta name="Resource-type" content="Document" />
-  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script type="text/javascript" src="js/jquery.pagepiling.min.js"></script>
-  <script type="text/javascript" src="js/jayque.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="js//jquery.pagepiling.css" />
-  <link rel="stylesheet" type="text/css" href="css/styles.css" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto" rel="stylesheet">
-</head>
-<body>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">		
+		<link href="https://fonts.googleapis.com/css?family=Istok+Web" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/magnific-popup.css">
 
-  <!-- <ul id="menu">
-    <li data-menuanchor="about_me" class="active"><a href="#about_me">About Me</a></li>
-    <li data-menuanchor="my_projects"><a href="#my_projects">My Projects</a></li>
-    <li data-menuanchor="contact_me"><a href="#contact_me">Contact Me</a></li>
-  </ul> -->
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	</head>
 
-  <div id="pagepiling">
-      <div class="section container" id="section1">
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3">
-            <h1 class="navbar-fixed-top h1 esconder"><span id="esconder">Alex Cyrus
-            <small><span id="title">Web Developer</span></span></small></h1>
-          </div>
-        </div><br>
-        
-        <!-- <h4>Front End</h4> -->
-          
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2 border">
-            <div id="skillset">
-              <h2 class="h2 ache2"><a href="#" class="ache2">Skill Set</a></h2>
-            </div>
-              <div id="myskillset">
-                <ul class="stilo">
-                  <li>JavaScript</li>
-                  <li>/ jQuery</li>
-                  <li>/ HTML5</li>
-                  <li>/ CSS3</li>
-                  <li>/ Bootstrap</li>
-                  <li>/ SASS</li>
-                </ul>
-                <ul class="stilo">
-                  <li>Ruby</li>
-                  <li>/ Rails</li>
-                  <li>/ Sinatra</li>
-                  <li>/ Node.js</li>
-                  <li>/ XML</li>
-                  <li>/ JSON</li>
-                  <li>/ AJAX</li>
-                </ul>
-                <ul class="stilo">
-                  <li>ActiveRecord</li>
-                  <li>/ SQL</li>
-                  <li>/ APIs</li>
-                  <li>/ Git</li>
-                  <li>/ GitHub Pages</li>
-                  <li>/ Heroku</li>
-                </ul>
-                <ul class="stilo">
-                  <li>PhotoShop</li>
-                  <li>/ InDesign</li>
-                  <li>/ Illustrator</li>
-                </ul>
-              </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2 border">
-            <div id="aboutme">
-              <h2 class="h2 ache2"><a href="#" class="ache2" id="aboutme">About Me</a></h2>
-            </div>
-            <div id="myaboutme">
-              <p class="h4 abtme">
-                Web Developer/Graphic Designer with 2 years of tech industry experience. My love of building things and working with others is what led me to a career in web development.
-              </p>
-              <p class="h4 abtme">
-                When I'm not doing tech stuff, you can find me singing karaoke, exercising at the gym, and reading a book at the local hipster cafe.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2 border">
-            <div id="resume">
-              <h4 class="h2 ache2"><a href="#" class="ache2">Resume</a></h4>
-            </div>
-            <div id="myresume">
-              <object width="500" height="580" data="imgs/Alex_Cyrus_Resume.pdf"></object>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section" id="section2">
-        <div class="intro">
-          <!-- <h1 class="h1">My Projects<small> --><!-- &nbsp;&nbsp;and recent work  --><!-- </small></h1> -->
-        </div>
-        <div class="container">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-          
-            <div class="item col-md-12">
-              <ul class="linktos">
-                <!-- <li><a href="https://turn-up-the-vamp.herokuapp.com" target="_blank" class="ache2">Link</a>&nbsp;&nbsp;/&nbsp;&nbsp;</li> -->
-                <li><a href="https://github.com/alexcyrus/TurnUpTheVamp" target="_blank" class="ache2">GitHub</a></li>
-              </ul>
-              <div>
-                <a href="https://turn-up-the-vamp.herokuapp.com" target="_blank" class="ache2"><img src="imgs/turn_up_the_vamp.png" class="projectimg" class="bordrad"></a>
-                <div class="carousel-caption">
-                
-                </div>
-            </div>
-          </div>
-            <!-- End Item -->
+	<body>
+		<!-- Wrapper -->
+		<section class="head" id="header">
+			<div class="wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<header class="header">
+								<div class="inner">
+									<!-- Logo -->
+									<a href="#menu"class="nav-bars">
+										<img src="images/nav_icon.svg" class="img-responsive" alt="Collapsable Navbar">
+									</a>
+									<a href="index.html" class="logo">
+										<span class="symbol"><img src="images/logo.png" alt="Title" /></span><span class="title">Alex Cyrus</span>
+									</a>
+								</div>
+							</header>
+							<!-- Menu -->
+							<nav id="menu">
+								<h2>Menu</h2>
+								<ul>
+									<li><a href="index.html">Home</a></li>
+									<li><a href="elements.html">Elements</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
+		<!-- Main -->
 
-           <div class="item col-md-12">
-            <ul class="linktos">
-                <!-- <li><a href="https://tarantino-jukebox.herokuapp.com" target="_blank" class="ache2">Link</a>&nbsp;&nbsp;/&nbsp;&nbsp;</li> -->
-                <li><a href="https://github.com/alexcyrus/TarantinoJukebox" target="_blank" class="ache2">GitHub</a></li>
-              </ul>
-            <div>
-                <a href="https://tarantino-jukebox.herokuapp.com" target="_blank" class="ache2"><img src="imgs/jukebox.png" class="projectimg"></a>
-                <div class="carousel-caption">
-                    
-                </div>
-            </div>
-          </div>
-            <!-- End Item -->
+		<section class="main-body">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-9">
+						<p class="drescription">Experienced Software Developer with a demonstrated history of working in the computer software industry. Skilled in JavaScript, Ruby on Rails, HTML, CSS, and Responsive Web Design.</p>
+					</div>
+				</div>
+				<div class="tiles">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="a">
+								<a href="http://saksfifthavenue.brickworksoftware.com" target="_blank">
+									<img src="images/saks_fifth_avenue.png" class="img-responsive" alt="Responsive image">
+									<div class="img-hover glass">
+										<div class="c-table">
+											<div class="ct-cell">
+												<h3 class="img-title">Saks Fifth Avenue</h3>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div id="test-popup-1" class="white-popup mfp-hide">
+							  	<div class="container-fluid">
+									<div class="row">
+										<div class="pop-up-color">
+											<div class="col-md-8 p-l-0 p-r-0">
+												<img src="images/saks_fifth_avenue.png" class="img-responsive" alt="Responsive image">
+											</div>
+											<div class="col-md-4">
+												<div>
+													<h2 class="popup-head">Saks Fifth Avenue</h2>
+												</div>
+												<div>
+													<p class="popup-parapraph">Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit a amet nisi is a euismod sed cursus arcu elementum and ipsum arcu vivamus is quis venenatis orci and nullam dolore. Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod still amet nisi aliqua.Eas Lorem ipsum dolor sit amet.</p>
+												</div>
+												<div class="pop-up-icon">
+													<div class="row">
+														<ul class="text-center popup-social-contact">
+															<li class="popup-social-icons">
+															<a href="#" class="icon pop-up fa-facebook"><span class="label">Facebook</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-twitter"><span class="label">Twitter</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-google-plus"><span class="label">GooglePlus</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-pinterest"><span class="label">pinterest</span></a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="a">
+								<a href="http://katespade.brickworksoftware.com" target="_blank">
+									<img src="images/kate_spade.png" class="img-responsive" alt="Responsive image">
+									<div class="img-hover shoes-glass">
+										<div class="c-table">
+											<div class="ct-cell">
+												<h3 class="img-title">Kate Spade</h3>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div id="test-popup-2" class="white-popup mfp-hide">
+							  	<div class="container-fluid">
+									<div class="row">
+										<div class="pop-up-color">
+											<div class="col-md-8 p-l-0 p-r-0">
+												<img src="images/kate_spade.png" class="img-responsive" alt="Responsive image">
+											</div>
+											<div class="col-md-4">
+												<div>
+													<h2 class="popup-head">Kate Spade</h2>
+												</div>
+												<div>
+													<p class="popup-parapraph">Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit a amet nisi is a euismod sed cursus arcu elementum and ipsum arcu vivamus is quis venenatis orci and nullam dolore. Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod still amet nisi aliqua.Eas Lorem ipsum dolor sit amet.</p>
+												</div>
+												<div class="pop-up-icon">
+													<div class="row">
+														<ul class="text-center popup-social-contact">
+															<li class="popup-social-icons">
+															<a href="#" class="icon pop-up fa-facebook"><span class="label">Facebook</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-twitter"><span class="label">Twitter</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-google-plus"><span class="label">GooglePlus</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-pinterest"><span class="label">pinterest</span></a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div><br>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="a">
+								<a href="http://davidyurman.brickworksoftware.com" target="_blank">
+									<img src="images/david_yurman.png" class="img-responsive" alt="Responsive image">
+									<div class="img-hover hand-parts">
+										<div class="c-table">
+											<div class="ct-cell">
+												<h3 class="img-title">David Yurman</h3>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div id="test-popup-3" class="white-popup mfp-hide">
+							  	<div class="container-fluid">
+									<div class="row">
+										<div class="pop-up-color">
+											<div class="col-md-8 p-l-0 p-r-0">
+												<img src="images/david_yurman.png" class="img-responsive" alt="Responsive image">
+											</div>
+											<div class="col-md-4">
+												<div>
+													<h2 class="popup-head">David Yurman</h2>
+												</div>
+												<div>
+													<p class="popup-parapraph">Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit a amet nisi is a euismod sed cursus arcu elementum and ipsum arcu vivamus is quis venenatis orci and nullam dolore. Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod still amet nisi aliqua.Eas Lorem ipsum dolor sit amet.</p>
+												</div>
+												<div class="pop-up-icon">
+													<div class="row">
+														<ul class="text-center popup-social-contact">
+															<li class="popup-social-icons">
+															<a href="#" class="icon pop-up fa-facebook"><span class="label">Facebook</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-twitter"><span class="label">Twitter</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-google-plus"><span class="label">GooglePlus</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-pinterest"><span class="label">pinterest</span></a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="a">
+								<a href="http://chicos.brickworksoftware.com" target="_blank">
+									<img src="images/chicos.png" class="img-responsive" alt="Responsive image">
+									<div class="img-hover table-with-phone">
+										<div class="c-table">
+											<div class="ct-cell">
+												<h3 class="img-title">Chico's</h3>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div id="test-popup-4" class="white-popup mfp-hide">
+							  	<div class="container-fluid">
+									<div class="row">
+										<div class="pop-up-color">
+											<div class="col-md-8 p-l-0 p-r-0">
+												<img src="images/chicos.png" class="img-responsive" alt="Responsive image">
+											</div>
+											<div class="col-md-4">
+												<div>
+													<h2 class="popup-head">Chico's</h2>
+												</div>
+												<div>
+													<p class="popup-parapraph">Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit a amet nisi is a euismod sed cursus arcu elementum and ipsum arcu vivamus is quis venenatis orci and nullam dolore. Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod still amet nisi aliqua.Eas Lorem ipsum dolor sit amet.</p>
+												</div>
+												<div class="pop-up-icon">
+													<div class="row">
+														<ul class="text-center popup-social-contact">
+															<li class="popup-social-icons">
+															<a href="#" class="icon pop-up fa-facebook"><span class="label">Facebook</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-twitter"><span class="label">Twitter</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-google-plus"><span class="label">GooglePlus</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-pinterest"><span class="label">pinterest</span></a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="a">
+								<a href="http://modells.brickworksoftware.com" target="_blank">
+									<img src="images/modells.png" class="img-responsive" alt="Responsive image">
+									<div class="img-hover orange-shoe">
+										<div class="c-table">
+											<div class="ct-cell">
+												<h3 class="img-title">Modell's</h3>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div id="test-popup-5" class="white-popup mfp-hide">
+							  	<div class="container-fluid">
+									<div class="row">
+										<div class="pop-up-color">
+											<div class="col-md-8 p-l-0 p-r-0">
+												<img src="images/modells.png" class="img-responsive" alt="Responsive image">
+											</div>
+											<div class="col-md-4">
+												<div>
+													<h2 class="popup-head">Modell's</h2>
+												</div>
+												<div>
+													<p class="popup-parapraph">Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit a amet nisi is a euismod sed cursus arcu elementum and ipsum arcu vivamus is quis venenatis orci and nullam dolore. Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod still amet nisi aliqua.Eas Lorem ipsum dolor sit amet.</p>
+												</div>
+												<div class="pop-up-icon">
+													<div class="row">
+														<ul class="text-center popup-social-contact">
+															<li class="popup-social-icons">
+															<a href="#" class="icon pop-up fa-facebook"><span class="label">Facebook</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-twitter"><span class="label">Twitter</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-google-plus"><span class="label">GooglePlus</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-pinterest"><span class="label">pinterest</span></a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div><br>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="a">
+								<a href="http://motherhood.brickworksoftware.com" target="_blank">
+									<img src="images/motherhood.png" class="img-responsive" alt="Responsive image">
+									<div class="img-hover glass-shoes">
+										<div class="c-table">
+											<div class="ct-cell">
+												<h3 class="img-title">Motherhood Maternity</h3>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div id="test-popup-6" class="white-popup mfp-hide">
+							  	<div class="container-fluid">
+									<div class="row">
+										<div class="pop-up-color">
+											<div class="col-md-8 p-l-0 p-r-0">
+												<img src="images/motherhood.png" class="img-responsive" alt="Responsive image">
+											</div>
+											<div class="col-md-4">
+												<div>
+													<h2 class="popup-head">Motherhood Maternity</h2>
+												</div>
+												<div>
+													<p class="popup-parapraph">Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit a amet nisi is a euismod sed cursus arcu elementum and ipsum arcu vivamus is quis venenatis orci and nullam dolore. Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod still amet nisi aliqua.Eas Lorem ipsum dolor sit amet.</p>
+												</div>
+												<div class="pop-up-icon">
+													<div class="row">
+														<ul class="text-center popup-social-contact">
+															<li class="popup-social-icons">
+															<a href="#" class="icon pop-up fa-facebook"><span class="label">Facebook</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-twitter"><span class="label">Twitter</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-google-plus"><span class="label">GooglePlus</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-pinterest"><span class="label">pinterest</span></a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="a">
+								<a href="http://tumi.brickworksoftware.com" target="_blank">
+									<img src="images/tumi.png" class="img-responsive" alt="Responsive image">
+									<div class="img-hover girls-tops">
+										<div class="c-table">
+											<div class="ct-cell">
+												<h3 class="img-title">Tumi</h3>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div id="test-popup-7" class="white-popup mfp-hide">
+							  	<div class="container-fluid">
+									<div class="row">
+										<div class="pop-up-color">
+											<div class="col-md-8 p-l-0 p-r-0">
+												<img src="images/tumi.png" class="img-responsive" alt="Responsive image">
+											</div>
+											<div class="col-md-4">
+												<div>
+													<h2 class="popup-head">Tumi</h2>
+												</div>
+												<div>
+													<p class="popup-parapraph">Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit a amet nisi is a euismod sed cursus arcu elementum and ipsum arcu vivamus is quis venenatis orci and nullam dolore. Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod still amet nisi aliqua.Eas Lorem ipsum dolor sit amet.</p>
+												</div>
+												<div class="pop-up-icon">
+													<div class="row">
+														<ul class="text-center popup-social-contact">
+															<li class="popup-social-icons">
+															<a href="#" class="icon pop-up fa-facebook"><span class="label">Facebook</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-twitter"><span class="label">Twitter</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-google-plus"><span class="label">GooglePlus</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-pinterest"><span class="label">pinterest</span></a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="a">
+								<a href="http://carolinaherrera.brickworksoftware.com" target="_blank">
+									<img src="images/carolina_herrera.png" class="img-responsive" alt="Responsive image">
+									<div class="img-hover egg-arts">
+										<div class="c-table">
+											<div class="ct-cell">
+												<h3 class="img-title">Carolina Herrera</h3>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div id="test-popup-8" class="white-popup mfp-hide">
+							  	<div class="container-fluid">
+									<div class="row">
+										<div class="pop-up-color">
+											<div class="col-md-8 p-l-0 p-r-0">
+												<img src="images/carolina_herrera.png" class="img-responsive" alt="Responsive image">
+											</div>
+											<div class="col-md-4">
+												<div>
+													<h2 class="popup-head">Carolina Herrera</h2>
+												</div>
+												<div>
+													<p class="popup-parapraph">Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit a amet nisi is a euismod sed cursus arcu elementum and ipsum arcu vivamus is quis venenatis orci and nullam dolore. Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod still amet nisi aliqua.Eas Lorem ipsum dolor sit amet.</p>
+												</div>
+												<div class="pop-up-icon">
+													<div class="row">
+														<ul class="text-center popup-social-contact">
+															<li class="popup-social-icons">
+															<a href="#" class="icon pop-up fa-facebook"><span class="label">Facebook</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-twitter"><span class="label">Twitter</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-google-plus"><span class="label">GooglePlus</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-pinterest"><span class="label">pinterest</span></a>
+															</li>
+														</ul>														
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-            <div class="item col-md-12">
-              <ul class="linktos">
-                <!-- <li><a href="https://fifteen-puzzle-game.herokuapp.com" target="_blank" class="ache2">Link</a>&nbsp;&nbsp;/&nbsp;&nbsp;</li> -->
-                <li><a href="https://github.com/alexcyrus/15puzzle" target="_blank" class="ache2">GitHub</a></li>
-              </ul>
-            <div>
-                <a href="https://fifteen-puzzle-game.herokuapp.com" target="_blank" class="ache2"><img src="imgs/15puzzle.png" class="projectimg"></a>
-                <div class="carousel-caption">
-                    
-                </div>
-            </div>
-          </div>
-            <!-- End Item -->
+		<section class="contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<h1>GET IN TOUCH</h1>
+							<form>
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<input type="text" class="form-control gt" name="name" id="name" placeholder="Name"/>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<input type="email" class="form-control gt" name="email" id="email" placeholder="Email" />
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-12">
+										<div class="from-group">
+											<textarea class="form-control gt" rows="2" name="message" id="message" placeholder="Message..."></textarea>
+										</div>
+									</div>
+								</div>
+							</form>
+							<div class="form-group"  align="right">
+							    <div class="col-sm-offset-2 col-sm-10">
+							      <a href="alex@alexcyrus.com" type="submit" class="btn btn-tobais btn-send-2">SEND</a>
+							    </div>
+							</div>
+						</div>
+					<div class="col-md-4">
+						<h1>CONTACT INFO</h1>
+							<!-- <p class="contact-desc">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus voluptatum necessi tatibus.
+							</p> -->
+							<p><Strong>Location: </Strong> New York, NY, USA</p>
+							<p><Strong>Call:</Strong> 469-605-6097</p>						
+							<!-- <p><Strong>Fax: </Strong>444 123 025 12</p>	 -->					
+							<!-- <p><Strong>Email: </Strong>alex@alexcyrus.com</p>	 -->	
+							<ul class="social-contact">
+							<li class="social-icons">
+								<li class="social-icons">
+								<a href="mailto:alex@alexcyrus.com" class="icon style2 fa-envelope"><span class="label">Email</span></a>
+							</li>
+								<a href="https://www.linkedin.com/in/alexcyrus" target="_blank" class="icon style2 fa-linkedin"><span class="label">Linkedin</span></a>
+							</li>
+							
+							<li class="social-icons">
+								<a href="https://github.com/alexcyrus" target="_blank" class="icon style2 fa-github"><span class="label">GitHub</span></a>
+							</li>
+						</ul>					
+					</div>
+				</div>				
+			</div>
+		</section>
 
-            <div class="item  active col-md-12 projex">
-            <ul class="linktos">
-                <li><a href="https://github.com/alexcyrus/Rezolve" target="_blank" class="ache2">GitHub</a><li>
-             </ul>
-            <div>
-                <img src="imgs/rezolve.png" class="projectimg">
-                <div class="carousel-caption">
-                    
-                </div>
-            </div>
-          </div>
-            <!-- End Item -->
+		<section class="footer">		
+			<footer>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-8 col-xs-9">
+							<!-- <p class="right-color">&copy; Copyright 2016. All rights reserved by <a href="https://themewagon.com/" target="_blank">ThemeWagon</a></p> -->
+						</div>
+						<div class="col-sm-4 col-xs-3" align="right">
+							<a href="#" id="back-to-top" class="top text-right" >TOP <i class="fa fa-angle-up" aria-hidden="true"></i> </a>
+						</div>
+					</div>
+				</div>											
+			</footer>
+		</section>
 
-        </div>
-        <!-- End Carousel Inner -->
-        <ul class="nav nav-pills nav-justified truncate-ellipsis">
-            
-            <li data-target="#myCarousel" data-slide-to="0" class="projtitle truncate-ellipsis"><a href="#">Turn Up The Vamp<br><small>Endless-scroller video game featuring vampires and electronic music. Built with JavaScript, Phaser, HTML5, Sinatra, Adobe Illustrator.</small></a></li>
-            <li data-target="#myCarousel" data-slide-to="1" class="projtitle truncate-ellipsis"><a href="#">Tarantino Jukebox<br><small>Interactive jukebox; upload your personal tracks. Built with JavaScript, jQuery, HTML5, CSS3, Sinatra.</a></small></li>
-            <li data-target="#myCarousel" data-slide-to="2" class="projtitle truncate-ellipsis"><a href="#">15 Puzzle<br><small>Sliding puzzle game with 16 tiles; place the tiles in order. Built with JavaScript, jQuery, HTML5, CSS3, Sinatra.</a></small></li>
-            <li data-target="#myCarousel" data-slide-to="3" class="active projtitle truncate-ellipsis"><a href="#">Rezolve<br><small>Designed instant sales-ware mobile application for an NYC-based startup. Built with Adobe PhotoShop.<br></small></a></li>
+	<!-- Scripts -->
 
-        </ul>
-        </div>
-        <!-- End Carousel -->
-      </div>
+		<script src="assets/js/jquery-3.1.0.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/jquery.magnific-popup.min.js"></script>
 
-        
-      </div>
-      <div class="section container" id="section3">
-      <div class="container">
-        <div class="row">
-        <br/><br/>
-          <div class="col-md-12">
-            <a href="https://github.com/alexcyrus" target="_blank" class="btn-social btn-github"><i class="fa fa-github-alt"></i></a>
-            <a href="mailto:alex@alexcyrus.com" target="_blank" class="btn-social btn-email"><i class="fa fa-envelope"></i></a>
-            <a href="https://www.linkedin.com/in/alexcyrus" target="_blank" class="btn-social btn-linkedin"><i class="fa fa-linkedin"></i></a>
-          </div>
-        </div>
-        </div>
-        <div class="intro">
-          <h1 class="h1">Contact me!</h1>
-        </div>
-      </div>
-  </div>
-  
+		<script src="assets/js/script.js"></script>
 
-</body>
+		<!--  ===== Scroll to Top ====  -->
+	    <script>
+			if ($('#back-to-top').length) {
+			    $('#back-to-top').on('click', function (e) {
+			        e.preventDefault();
+			        $('html,body').animate({
+			            scrollTop: 0
+			        }, 700);
+			    });
+			}
+		</script>
+		
+	</body>
 </html>
