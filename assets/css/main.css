@@ -34,15 +34,15 @@ pre {
 }
 
 .inner {
-    border-bottom: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
 }
 
-.drescription {
+.description {
 	padding-top: 2.3em;
-    font-family: 'Overpass', sans-serif;
-    font-size: 21px;
-    font-weight: 700;
-    letter-spacing: .5px;
+  font-family: 'Overpass', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: .5px;
 }
 
 .orange {
@@ -55,27 +55,27 @@ pre {
 }
 
 .fa-circle-thin:before, .fa-check-circle:before, .fa-check-square:before, .fa-square-o:before {
-    font-size: 25px;
-    margin-right: 7px;
+  font-size: 25px;
+  margin-right: 7px;
 }
 .contact {
 	background-color: #f8f8f8;
 	padding: 5em 0em;
 }
 .contact h1 {
-	padding-bottom: 30px;
-    font-size: 25px;
-    letter-spacing: 5px;
-    margin-top: 0px;
+	padding-bottom: 10px;
+  font-size: 25px;
+  letter-spacing: 5px;
+  margin-top: 0px;
 }
 
 .contact p {
-    margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .contact p.contact-desc {
-    margin-bottom: 25px;
-    line-height: 27px;
+  margin-bottom: 25px;
+  line-height: 27px;
 }
 
 .social-contact-icon {
@@ -178,7 +178,6 @@ pre {
 
 
 			.contact-info{
-
 				margin-left: 38px;
 				padding: 30px 0px 70px 0px;
 			}
@@ -231,7 +230,7 @@ pre {
 			border-bottom: 0;
 			color: inherit;
 			font-weight: 900;
-			letter-spacing: 0.35em;
+			letter-spacing: 2.5px;
 			margin: 0 0 2.5em 0;
 			text-decoration: none;
 			text-transform: uppercase;
@@ -241,6 +240,7 @@ pre {
 			.header .logo > * {
 				display: inline-block;
 				vertical-align: middle;
+				font-size: 1.5em;
 			}
 
 			.header .logo .symbol {
