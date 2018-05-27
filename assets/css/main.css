@@ -243,7 +243,7 @@ pre {
 			.header .logo > * {
 				display: inline-block;
 				vertical-align: middle;
-				font-size: 1.5em;
+				font-size: 2em;
 			}
 
 			.header .logo .symbol {
@@ -252,13 +252,12 @@ pre {
 
 				.header .logo .symbol img {
 					display: block;
-					width: 3.2em;
-					height: 2.5em;
+					width: 3em;
 				}
 
 .subtitle {
 	display: block;
-	font-size: 0.69em;
+	font-size: 0.5em;
 }
 
 .unordarlist {
@@ -286,6 +285,10 @@ pre {
 .tiles{
 
 	margin: 30px 0px;
+}
+.tiles h3 {
+	text-align: center;
+	text-transform: uppercase;
 }
 img.img-responsive {
     margin: 15px 0px;
@@ -688,29 +691,38 @@ button[disabled], html input[disabled] {
 .a a:hover .img-hover {
 	opacity: 0;
 }
-.a a .img-hover.glass {
+.a a .img-hover.saks-fifth-avenue {
     background: #72614F;
 }
-.a a .img-hover.shoes-glass {
+.a a .img-hover.kate-spade {
     background: #000000;
 }
-.a a .img-hover.hand-parts {
-    background: #B29868;
-}
-.a a .img-hover.table-with-phone {
-    background: #5B4C3D;
-}
-.a a .img-hover.orange-shoe {
+.a a .img-hover.modells {
     background: #CE263C;
 }
-.a a .img-hover.glass-shoes {
+.a a .img-hover.david-yurman {
+    background: #5B4C3D;
+}
+.a a .img-hover.chicos {
+    background: #B29868;
+}
+.a a .img-hover.motherhood-maternity {
     background: #411F61;
 }
-.a a .img-hover.girls-tops {
+.a a .img-hover.tumi {
     background: #B92335;
 }
-.a a .img-hover.egg-arts {
+.a a .img-hover.carolina-herrera {
     background: #666666;
+}
+.a a .img-hover.pinkkit {
+    background: #FF1493;
+}
+.a a .img-hover.turn-up-the-vamp {
+    background: #1A3641;
+}
+.a a .img-hover.tarantino-jukebox {
+    background: #AA9787;
 }
 .a a .img-hover .c-table {
 	display: table;
