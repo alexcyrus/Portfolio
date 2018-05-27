@@ -256,6 +256,10 @@ pre {
 					height: 2.5em;
 				}
 
+.subtitle {
+	display: block;
+	font-size: 0.65em;
+}
 
 .unordarlist {
 	font-family: 'Raleway', sans-serif;
